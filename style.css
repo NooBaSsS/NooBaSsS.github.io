@@ -1,9 +1,12 @@
-h3 {
+h3, h2 {
 			color: #990000;
 			font-size: 20px;
+			font-weight: ;
+			font-family: 'Rampart One', cursive;
 
 		}
 body{
 			color: orange;
 			background-color: #6666FF;
+		
 		}
