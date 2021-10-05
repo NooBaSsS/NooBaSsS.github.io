@@ -8,5 +8,7 @@ h3, h2 {
 body{
 			color: orange;
 			background-color: #6666FF;
-		
+			background: rgb(121,9,9);
+			background: linear-gradient(180deg, rgba(121,9,9,1) 0%, rgba(255,0,0,1) 100%); 
+
 		}
