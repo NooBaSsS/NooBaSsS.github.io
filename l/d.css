@@ -1,0 +1,33 @@
+.s{
+	width: 200px;
+	height: 200px;
+}
+.r{
+	background-color: red;
+}
+.g{
+	background-color: green;
+}
+.b{
+	background-color: blue;
+	}
+.co{
+	background-color: #c0c0c0;
+	height: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.con{
+	background-color: #111;
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	height: 400px
+}
+.f1{
+	background-color: #002395;
+}
+.f2{background-color: #fff;}
+.f3{background-color: #ed2939;}
