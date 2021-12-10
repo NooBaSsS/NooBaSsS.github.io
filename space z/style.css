@@ -88,7 +88,6 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	border: none;
-
 	font-family: Verdana;
 	font-size: 14px;
 	font-style: normal;
@@ -119,4 +118,40 @@ body {
 }
 .advantages article {
 	width: 170px;
+}
+.content_top {
+	display: flex;
+	justify-content: space-between;
+}
+.content_container {
+	padding: 80px 165px 125px 165px;
+
+}
+.content_top_r {
+	
+}
+.content_top img {
+	margin-right: 80px
+}
+.content h2 {
+	font-family: Courier New;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 27px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #000000;
+	margin-bottom: 44px;
+	margin-top: 0;
+}
+.content p {
+	font-family: Verdana;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 17px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #000000;
 }
