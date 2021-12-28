@@ -294,4 +294,27 @@ footer {
 .schedule_top {
 	display: flex;
 	justify-content: space-between;
+	padding-bottom: 80px;
+}
+.schedule th {
+	background-color: #111111;
+	width: 25%;
+	padding: 18px 17px 15px;
+}
+.schedule td {
+	border-bottom: 1px solid #555555;
+	width: 25%;
+	padding: 20px 17px 13px;
+}
+.schedule table {
+	color: #D4D4D4;
+	font-family: Verdana;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 17px;
+	letter-spacing: 0em;
+	text-align: left;
+	border-collapse: collapse;
+	width: 960px;
 }
