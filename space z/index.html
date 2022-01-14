@@ -103,21 +103,23 @@
 	</section>
 	<!--контент-->
 	<section class="reg">
-		<div class="text">
-			<h2>Готовы открыть<br> для себя что-то новое?</h2><br><br>
-			<p>Отправьте заявку, заполнив форму справа,<br> мы рассмотрим вашу кандидатуру и свяжемся<br> с вами в течении 24 часов.</p>
-		</div>
-		<div class="form">
-			<form>
-				<input type="text" name="name" placeholder='ФИО'><br>
-				<input type="tel" name="tel" placeholder="Контактный телефон"><br>
-				<input type="tel" name="growth" placeholder="Рост">
-				<input type="text" name="weight" placeholder="Вес"
-				><br>
-				<input type="checkbox" name="d" id="a" checked>
-				<label for="a">Согласен(а) наобработку персональных данных</label><br>
-				<input type="submit" name="button">
-			</form>
+		<div class='cont form_cont'>
+			<div class="text">
+				<h2>Готовы открыть<br> для себя что-то новое?</h2>
+				<p>Отправьте заявку, заполнив форму справа,<br> мы рассмотрим вашу кандидатуру и свяжемся<br> с вами в течении 24 часов.</p>
+			</div>
+			<div class="form">
+				<form action='http://192.168.1.20:8000/cgi-bin/form.py'>
+					<input type="text" name="name" placeholder='ФИО' id="name"><br>
+					<input type="tel" name="tel" id="tel" placeholder="Контактный телефон"><br>
+					<input type="tel" name="growth" placeholder="Рост" id="growth">
+					<input type="text" name="weight" placeholder="Вес" id="weight" 
+					><br>
+					<input type="checkbox" name="sogl" id="agree" checked>
+					<label for="a" class="lab">Согласен(а) наобработку персональных данных</label><br>
+					<button type="submit" name="button" id="button">ОТПРАВИТЬ <img src="img/arrow-b.svg"></button>
+				</form>
+			</div>
 		</div>
 	</section>
 	<section class="schedule">
@@ -125,7 +127,7 @@
 			<div class="schedule_top">
 				<h2>Расписание полетов</h2>
 				<p>Для вашего удобства мы разработали график полетов с вылетами из Москвы и Санкт-Петербурга.Вы также можете запросить <span>индивидуальный полет</span>. </p>
-		</div>
+			</div>
 			<div class="schedule_bottom">
 				<table>
 					<tr>
