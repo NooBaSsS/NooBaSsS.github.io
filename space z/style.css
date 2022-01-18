@@ -372,28 +372,28 @@ footer {
 	height: 50px;
 	box-sizing: border-box;
 	padding: 16px 23px 17px;
+	border: 0;
+	margin-bottom: 20px;
 }
 #agree {
 	height: 25px;
+	margin: 0 17px 0 0;
+}
+.form_check {
 	margin-bottom: 40px;
+	display: flex;
+	align-items: center;
 }
 #name,#tel{
 	width: 100%;
 	margin-bottom: 8px;
 }
-#weight, {
-	margin-bottom: 20px;
-}
-#growth {
-	width: 50%;
-	margin-right: 10px;
-	margin-bottom: 20px;
-}
+
 #button {
 	height: 50px;
 	width: 240px;
 	border-radius: 25px;
-	background-color: #FFCB06;
+	background-color: #222222;
 	padding: 17px 22px 17px 38px;
 	display: flex;
 	justify-content: space-between;
@@ -407,4 +407,18 @@ footer {
 	letter-spacing: 0em;
 	text-align: left;
 	text-transform: uppercase;
+	color: #ffffff;
+}
+.form_fl {
+	display: flex;
+}
+#growth {
+	margin-right: 5px;
+	flex-basis: 0;
+	flex-grow: 1;
+}
+#weight {
+	margin-left: 5px;
+	flex-basis: 0;
+	flex-grow: 1;
 }

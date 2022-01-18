@@ -112,12 +112,14 @@
 				<form action='http://192.168.1.20:8000/cgi-bin/form.py'>
 					<input type="text" name="name" placeholder='ФИО' id="name"><br>
 					<input type="tel" name="tel" id="tel" placeholder="Контактный телефон"><br>
-					<input type="tel" name="growth" placeholder="Рост" id="growth">
-					<input type="text" name="weight" placeholder="Вес" id="weight" 
-					><br>
-					<input type="checkbox" name="sogl" id="agree" checked>
-					<label for="a" class="lab">Согласен(а) наобработку персональных данных</label><br>
-					<button type="submit" name="button" id="button">ОТПРАВИТЬ <img src="img/arrow-b.svg"></button>
+						<div class="form_fl">
+							<input type="tel" name="growth" placeholder="Рост" id="growth">
+							<input type="text" name="weight" placeholder="Вес" id="weight" 
+						></div>
+						<div class="form_check">
+							<input type="checkbox" name="sogl" id="agree" checked>
+							<label for="a" class="lab">Согласен(а) наобработку персональных данных</label><br></div>
+					<button type="submit" name="button" id="button">ОТПРАВИТЬ <img src="img/arrow-w.svg"></button>
 				</form>
 			</div>
 		</div>
