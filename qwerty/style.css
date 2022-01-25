@@ -1,3 +1,9 @@
+body {
+	margin: 0;
+}
+p,h1,h2,h3 {
+	margin: 0;
+}
 h1 {
 	font-family: Montserrat;
 	font-size: 75px;
@@ -6,7 +12,7 @@ h1 {
 	line-height: 75px;
 	letter-spacing: -0.02em;
 	text-align: center;
-	
+	margin-bottom: 20px;	
 }
 header {
 	background-color: #E5E5E5;
@@ -19,4 +25,58 @@ p {
 	line-height: 30px;
 	letter-spacing: -0.02em;
 	text-align: center;
+}
+.qwe {
+	margin-right: 15px;
+}
+.ewq {
+	margin-left: 15px;
+}
+.cont {
+	max-width: 1440px;
+	margin: 0 auto 0;
+}
+.head_cont{
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 100px;
+}
+header p {
+	margin-bottom: 65px;
+}
+
+.slider {
+	background-color: #000000;
+}
+
+.slider_container {
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: rgba(0, 0, 0, 0);
+}
+.slider_l, .slider_r {
+	display: flex;
+	align-items: center;
+}
+.slider_l {
+	padding-left: 52px;
+}
+.slider_r {
+	padding-right: 52px;
+}
+.text h2 {
+	font-family: Montserrat;
+	font-size: 45px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 54px;
+	letter-spacing: -0.02em;
+	text-align: center;
+	color: #FFFFFF;
 }
