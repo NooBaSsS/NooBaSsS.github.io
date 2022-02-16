@@ -17,7 +17,6 @@ body {
 	box-sizing: border-box;
 }
 h1 {
-
 	font-size: 96px;
 	font-style: normal;
 	font-weight: 400;
@@ -130,6 +129,7 @@ article button {
 	left: 102px;
 	top: 2268px;
 	border-radius: 4px;
+	border: 0;
 }
 input {
 	font-family: Playfair Display;
@@ -142,4 +142,35 @@ input {
 	padding-top: 14px;
 	padding-bottom: 14px;
 	padding-left: 30px;
+}
+.input {
+	display: flex;
+	justify-content: center;
+}
+.form_cont button {
+	height: 60px;
+	width: 1236px;
+	left: 102px;
+	top: 2368px;
+	border-radius: 9px;
+	border: 0;
+	background-color: #000;
+	color: #fff;
+	font-family: Playfair Display;
+}
+.form_button {
+	display: flex;
+	justify-content: center;
+}
+#name {
+	margin-right: 20px;
+	margin-bottom: 40px;
+}
+.footer_cont {
+	height: 512px;
+	width: 1440px;
+	left: 0px;
+	top: 2559.99853515625px;
+	border-radius: 0px;
+	background-image: url(../img/фон4.png);
 }
