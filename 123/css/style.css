@@ -7,7 +7,7 @@ body {
 }
 .cont {
 	width: 1440px;
-	margin: 0 auto 0;
+	margin: 0 auto;
 }
 .header_cont {
 	background-image: url(../img/фон.png);
@@ -33,7 +33,7 @@ h2 {
 	letter-spacing: 0em;
 }
 h3 {
-	font-family: Playfair Display;
+
 	font-size: 48px;
 	font-style: normal;
 	font-weight: 400;
@@ -53,7 +53,7 @@ p {
 	margin: 0 auto 550px;
 	padding-top: 60px;
 }
-.select {
+.select_cont {
 	background-image: url(../img/фон2.png);
 	background-size: cover;
 	height: 1024px;
@@ -104,8 +104,20 @@ article button {
 	align-items: center;
 	padding: 22px 60px 74px;
 }
+.select_cont h2 {
+	color: #ffffff;
+}
 .article_cont {
 	display: flex;
+	color: #FFFFFF;
+}
+.article_cont h3 {
+	font-family: Reggae One;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 70px;
+	letter-spacing: 0em;
 }
 .ararat {
 	margin-left: 135px;
@@ -118,6 +130,10 @@ article button {
 	padding-left: 100px;
 	padding-right: 102px;
 	padding-top: 32px;
+	width: 1240px;
+	left: 0px;
+	top: 2048px;
+	border-radius: [object Object]px;
 }
 .form_cont h3 {
 	color: #fff;
@@ -148,8 +164,8 @@ input {
 	justify-content: center;
 }
 .form_cont button {
-	height: 60px;
-	width: 1236px;
+	height: 70px;
+	width: 1300px;
 	left: 102px;
 	top: 2368px;
 	border-radius: 9px;
@@ -157,6 +173,13 @@ input {
 	background-color: #000;
 	color: #fff;
 	font-family: Playfair Display;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 32px;
+	letter-spacing: 0em;
+	text-align: center;
+
 }
 .form_button {
 	display: flex;
@@ -170,7 +193,38 @@ input {
 	height: 512px;
 	width: 1440px;
 	left: 0px;
-	top: 2559.99853515625px;
+	top: 2560px;
 	border-radius: 0px;
 	background-image: url(../img/фон4.png);
+	background-size: cover;
+	font-family: Reggae One;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 70px;
+	letter-spacing: 0em;
+	box-sizing: border-box;
+	padding: 50px;
+}
+.footer_cont h3 {
+	margin-top: 50px;
+	color: #FFFFFF;
+;
+}
+.text img {
+	margin-right: 20px;
+}
+.text {
+	margin: 0 0 0 auto;
+	float: left;
+}
+.webs img {
+	margin-right: 30px;
+}
+.webs {
+	margin: auto 0 0 0;
+	float: right;
+}
+.mail {
+	margin-top: 152px;
 }
