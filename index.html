@@ -3,195 +3,80 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>=)</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+	<link rel="manifest" href="favicons/site.webmanifest">
+	<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 </head>
-<!--https://www.figma.com/file/fGzxWzHvHtyiWrJpRwLK3b/Space-Z-full?node-id=1%3A90-->
 <body>
 	<header>
-		<div class="container">
-			<div class="menu">
-				<div class="menu_left">	
-				<div class="logo">
-					<img src="img/logo.svg">
-				</div>
-				<nav>
-					<ul class="menu_list">
-						<li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Компания</a></li>
-						<li><a href="">Каталог</a></li>
-						<li><a href="">Контакты</a></li>
-					</ul>
-				</nav></div>
-				<div class="contacts">
-						<a class="mail" href="mailto:KillMePlzX@yandex.ru"><img src="img/mail.svg"></a>
-						<a class="tel" href="tel:89660092654"><img src="img/phone.svg"></a>
-				</div>
-			</div>
-	
-		<div class="header_bottom">
-			<div class="header_content">
-				<h1>На Луну<br>и обратно</h1>
-			<p>
-				Космически крутой туризм.<br>
-				Пакетные и индивидуальные туры<br>
-				по лучшим планетам галактики.<br>
-			</p>
-			<button>
-				<span>подбор тура</span>
-				<img src="img/arrow-b.svg">
-			</button>
-			</div>
-			<div class="moon">
-				<img src="img/moon.svg">
-			</div>
+		<div class="cont header_cont">
+			<h1>ГОРЫ</h1>
+			<button class="header_button" onclick="window.location.href='#select';">выбрать</button>
 		</div>
-	</div>
-	</header><!--верх-->
-	<main>
-	
-	<section class= "advantages">
-		<div class="container advantages_container">
-		<article>
-			<img src="img/rocket.svg" alt="">
-			<p>Комфортабельные ракеты отечественного производства.</p>
-		</article>
-		<article>
-			<img src="img/bottle.svg" alt="">
-			<p>Вкусное и полезное космическое питание на борту</p>
-		</article>
-		<article>
-			<img src="img/human.svg" alt="">
-			<p>Весь состав пилотов состоит из бывших космонавтов.</p>
-		</article>
-		<article>
-			<img src="img/flag-m.svg" alt="">
-			<p>Экскурсии на луноходе на Море Ясности и Океан Бурь.</p>
-		</article></div>
-	</section>
-	<!--преимущества-->
-
-	<section class="content">
-		<div class="container content_container">
-			<div class="content_top">
-				<img src="img/map.svg" alt="">
-				<div class="content_top_r">
-					<h2>Надоело летать в отпуск за границу? Как насчет того, чтобы слетать на Луну?</h2>
-					<p>Устали от пакетных туров и пляжного отдыха? Полотенца и магнитики, которые вы привозите из отпуска уже не радуют ваших близких? В следующий раз привезите им настоящий лунный камень!<br>&nbsp;<br>
-					Мы предлагаем инновационную услугу на туристическом рынке — космический туризм (пока только на Луну, сейчас решаем вопросы с визовым центром Венеры).<br>&nbsp;<br>
-					Берите отпуск и отправляйтесь с нами в полет, он займет всего 72 часа!</p>
-				</div>
-			</div>
-			<div class="content_bottom">
-				<article>
-					<h2>Не забудьте взять с собой:</h2>
-					<ul>
-						<li><strong>Паспорт.</strong> Визовый режим пока не введен, но на границе будет досмотр.</li>
-						<li><strong>Тяжелые ботинки.</strong> Пригодятся вам в условиях низкой гравитации на Луне.</li>
-						<li><strong>Криптовалюта.</strong> Рекомендуем заранее обменять немного Лун-коинов, чтобы купить сувениры</li>
-					</ul>
+	</header>
+	<section class="select">
+		<div class="cont select_cont" id="select">
+			<h2>ВЫБРАТЬ ГОРУ</h2>
+			<div class="article_cont">
+				<article class="elbrus">
+					<h3>Эльбрус</h3>
+					<img src="img/эльбрус_фото.png" alt="">
+					<p>Самая высокая горная вершина России и Европы</p>
+					<button onclick="window.location.href = '';">заказать</button>
+					<img src="img/карта.png" alt="">
 				</article>
-				<article>
-					<h2>Это лучше оставить дома:</h2>
-					<ul>
-						<li><strong>Телефон.</strong> В космосе не ловит ваш любимый оператор и нет WI-FI.</li>
-						<li><strong>Бутерброды.</strong> На борту будет питание, которое не разлетится по кабине в условиях невесомости.</li>
-						<li><strong>Плавки/купальник.</strong> Море Ясности и Океан Бурь это большие кратеры. Без воды.</li>
-					</ul>
+				<article class="ararat">
+					<h3>Арарат</h3>
+					<img src="img/арарат_фото.png" alt="">
+					<p>Самый высокий вулканический массив Армянского нагорья на востоке Турции</p>
+					<button onclick="window.location.href = '';">заказать</button>
+					<img src="img/карта2.png" alt="">
+				</article>
+				<article class="beluha">
+					<h3>Белуха</h3>
+					<img src="img/белуха_фото.png" alt="">
+					<p>Высшая точка Алтайских гор, одна из высочайших горных вершин России.</p>
+					<button onclick="window.location.href = '';">заказать</button>
+					<img src="img/карта3.png" alt="">
 				</article>
 			</div>
 		</div>
 	</section>
-	<!--контент-->
-	<section class="reg">
-		<div class='cont form_cont'>
-			<div class="text">
-				<h2>Готовы открыть<br> для себя что-то новое?</h2>
-				<p>Отправьте заявку, заполнив форму справа,<br> мы рассмотрим вашу кандидатуру и свяжемся<br> с вами в течении 24 часов.</p>
-			</div>
-			<div class="form">
-				<form action='http://192.168.1.20:8000/cgi-bin/form.py'>
-					<input type="text" name="name" placeholder='ФИО' id="name"><br>
-					<input type="tel" name="tel" id="tel" placeholder="Контактный телефон"><br>
-						<div class="form_fl">
-							<input type="tel" name="growth" placeholder="Рост" id="growth">
-							<input type="text" name="weight" placeholder="Вес" id="weight" 
-						></div>
-						<div class="form_check">
-							<input type="checkbox" name="sogl" id="agree" checked>
-							<label for="a" class="lab">Согласен(а) наобработку персональных данных</label><br></div>
-					<button type="submit" name="button" id="button">ОТПРАВИТЬ <img src="img/arrow-w.svg"></button>
-				</form>
-			</div>
+	<section class="form">
+		<div class="cont form_cont">
+			<h3>Вас обманули?<br>Напишите нам и мы ничего не сделаем!</h3><form action="http://192.168.1.20:8000/cgi-bin/form.py">
+			<div class="input">
+				<input type="text" placeholder="Имя" id="name" name="name">
+				<input type="text" placeholder="Эл.почта для обратной связи" name="mail"><br></div>
+				<div class="form_button">
+				<button type="submit">Сообщить нам</button>
+				</div></form>
 		</div>
 	</section>
-	<section class="schedule">
-		<div class="container schedule_container">
-			<div class="schedule_top">
-				<h2>Расписание полетов</h2>
-				<p>Для вашего удобства мы разработали график полетов с вылетами из Москвы и Санкт-Петербурга.Вы также можете запросить <span>индивидуальный полет</span>. </p>
-			</div>
-			<div class="schedule_bottom">
-				<table>
-					<tr>
-						<th>№ Рейса</th>
-						<th>Откуда-куда</th>
-						<th>Время вылета</th>
-						<th>Время прилета</th>
-					</tr>
-					<tr>
-						<td>1635</td>
-						<td>VKO-MOON</td>
-						<td>00:45</td>
-						<td>23:15</td>
-					</tr>
-					<tr>
-						<td>70200</td>
-						<td>LED-MOON</td>
-						<td>17:30</td>
-						<td>16:20</td>
-					</tr>
-				</table>
-			</div>
-		</div>
-	</section>
-	</main>
-
 	<footer>
-		<div class="container footer_cont">
-			<div class="footer_l">
-				<div class="footer_l_t">
-					<img src="img/logo.svg" alt="">
-					Space-Z
-				</div>
-				<div class="footer_l_b">ООО «Космос Зэ». <br> Все права защищены.</div>
+		<div class="cont footer_cont">
+			<div class="text">
+				<h3><a href="tel:88005553535">8 800 555 35 35</a><br>пишите в<a href=""><img src="img/telegram.png"></a><a href=""><img src="img/whatsapp.png"></a><a href=""><img src="img/viber.png"></a></h3>
+			<div class="mail">
+				<h3><a href="mailto:razvod_na_gory@kupit.com">razvod_na_gory@kupit.com</a></h3>
 			</div>
-			<div class="footer_r">
-				<article>
-					<h3>КОМПАНИЯ</h3>
-					<hr>
-					<ul>
-						<li>История</li>
-						<li>Миссия</li>
-						<li>Команда</li>
-					</ul>
-				</article>
-				<article><h3>КАТАЛОГ</h3>
-					<hr>
-					<ul>
-						<li>Полеты</li>
-						<li>Проживание</li>
-						<li>Экскурсии</li>
-					</ul></article>
-				<article><h3>КОНТАКТЫ</h3>
-					<hr>
-					<ul>
-						<li>Отправить заявку</li>
-						<li>Схема проезда</li>
-						<li>Время работы</li>
-					</ul></article>
+			</div>
+			<div class="webs">
+				<a href=""><img src="img/facebook.png"></a>
+				<a href=""><img src="img/odnoklassniki.png"></a>
+				<a href=""><img src="img/vk.png"></a>
+				<a href=""><img src="img/inst.png"></a>
 			</div>
 		</div>
 	</footer>
-	<!--подвал-->
 </body>
 </html>
+
+								
