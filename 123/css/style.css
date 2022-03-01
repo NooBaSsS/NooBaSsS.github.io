@@ -231,7 +231,7 @@ input {
 a {
 	text-decoration: none;
 }
-.elbrus h1 {
+.elbrus_2 h1 {
 	font-family: Reggae One;
 	font-size: 96px;
 	font-style: normal;
@@ -248,7 +248,7 @@ a {
 .fotorama__wrap {
     margin: 0 auto;
 }
-.elbrus p {
+.elbrus_2,.ararat_2,.beluha_cont p {
 	font-family: Play;
 	font-size: 24px;
 	font-style: normal;
@@ -258,7 +258,7 @@ a {
 	margin: auto 122px;
 	color: #ffffff;
 }
-.elbrus {
+.elbrus_2 {
 	background-image: url(../img/эльбрус_фон.png);
 	background-size: cover;
 }
@@ -271,6 +271,75 @@ a {
 	letter-spacing: 0em;
 	color: #E3E6E7;
 	background: radial-gradient(50% 50% at 50% 50%, #C56E1B 0%, rgba(193, 110, 20, 0) 100%);
+	height: 100px;
+	width: 223px;
+	border-radius: 0px;
+	display: flex;
+	margin-right: 122px;
+	margin-left: auto;
+	justify-content: center;
+	align-items: center;
+}
+.ararat_2  {
+	background-image: url(../img/арарат_фон.png);
+	background-size: cover;
+	height: 1024px;
+	width: 1440px;
+	border-radius: 0px;
+}
+.ararat_2 h1 {
+	font-family: Reggae One;
+	font-size: 96px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 139px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #ffffff;
+}
+#button_2 {
+	font-family: Russo One;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 29px;
+	letter-spacing: 0em;
+	color: #E3E6E7;
+	background: radial-gradient(50% 50% at 50% 50%, #42640B 0%, rgba(66, 100, 11, 0) 100%);
+	height: 100px;
+	width: 223px;
+	border-radius: 0px;
+	display: flex;
+	margin-right: 122px;
+	margin-left: auto;
+	justify-content: center;
+	align-items: center;
+}
+.beluha_cont {
+	background-image: url(../img/белуха_фон.png);
+	height: 1024px;
+	width: 1440px;
+	border-radius: 0px;
+}
+.beluha_cont h1 {
+	font-family: Reggae One;
+	font-size: 96px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 139px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #ffffff;
+}
+#button3 {
+	background: radial-gradient(50% 50% at 50% 50%, #08172A 0%, rgba(8, 23, 42, 0) 100%);
+	font-family: Russo One;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 29px;
+	letter-spacing: 0em;
+	color: #E3E6E7;
 	height: 100px;
 	width: 223px;
 	border-radius: 0px;
