@@ -248,7 +248,7 @@ a {
 .fotorama__wrap {
     margin: 0 auto;
 }
-.elbrus_2,.ararat_2,.beluha_cont p {
+.elbrus_2 p,.ararat_2 p,.beluha_cont p {
 	font-family: Play;
 	font-size: 24px;
 	font-style: normal;
@@ -257,10 +257,29 @@ a {
 	letter-spacing: 0em;
 	margin: auto 122px;
 	color: #ffffff;
+	margin: 10px 122px 5px;
 }
 .elbrus_2 {
 	background-image: url(../img/эльбрус_фон.png);
 	background-size: cover;
+	margin: 0 auto;
+}
+.elbrus_2 a,.ararat_2 a,.beluha_cont a {
+	background: radial-gradient(50% 50% at 50% 50%, #366492 0%, rgba(54, 100, 146, 0) 100%);
+	height: 75px;
+	width: 142px;
+	border-radius: 0px;
+	font-family: Reggae One;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 14px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 #button {
 	font-family: Russo One;
@@ -286,6 +305,7 @@ a {
 	height: 1024px;
 	width: 1440px;
 	border-radius: 0px;
+	margin: 0 auto;
 }
 .ararat_2 h1 {
 	font-family: Reggae One;
@@ -348,4 +368,43 @@ a {
 	margin-left: auto;
 	justify-content: center;
 	align-items: center;
+}
+.buttons {
+	margin-right: 122px;
+	margin-left: auto;
+	height: 100px;
+	width: 365px;
+	display: flex;
+	align-items: center;
+}
+.posmotrite_takje {
+	background-image: url(../img/фон10.png);
+	background-size: cover;
+	height: 512px;
+	width: 1440px;
+	margin: 0 auto;
+}
+.posmotrite_takje h2 {
+	color: #ffffff;
+	text-align: center;
+}
+.posmotrite_takje article {
+	border-radius: 0px;
+	font-family: Reggae One;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 70px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #ffffff;
+}
+.posmotrite_takje img {
+	margin-bottom: 25px;
+}
+.articles {
+	display: flex;
+	margin-left: 223px;
+	margin-right: 223px;
+	justify-content: space-between;
 }
