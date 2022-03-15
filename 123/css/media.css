@@ -1,0 +1,37 @@
+@media (max-width: 480px) {
+	h1 {
+		font-size: 40px;
+	}
+	.headre_cont h1 {
+		margin: 0;
+	}
+	.headre_cont {
+		height: 350px;
+	}
+	.article_cont {
+		flex-direction: column;
+	}
+}
+@media (min-width: 481px) {
+	h1 {
+		font-size: 80px;
+	}
+	.headre_cont h1 {
+		margin: 0;
+	}
+}
+@media (min-width: 769px) {
+	h1 {
+		font-size: 96px;
+	}
+}
+@media (min-width: 1025px) {
+	h1 {
+		font-size: 40px;
+	}
+}
+@media (min-width: 1201px) {
+	h1 {
+		font-size: 40px;
+	}
+}

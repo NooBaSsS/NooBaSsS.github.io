@@ -6,8 +6,9 @@ body {
 
 }
 .cont {
-	width: 1440px;
+	max-width: 1440px;
 	margin: 0 auto;
+	width: 100vw;
 }
 .header_cont {
 	background-image: url(../img/фон.png);
@@ -17,7 +18,6 @@ body {
 	box-sizing: border-box;
 }
 h1 {
-	font-size: 96px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 139px;
@@ -33,7 +33,6 @@ h2 {
 	letter-spacing: 0em;
 }
 h3 {
-
 	font-size: 48px;
 	font-style: normal;
 	font-weight: 400;
@@ -56,7 +55,6 @@ p {
 .select_cont {
 	background-image: url(../img/фон2.png);
 	background-size: cover;
-	height: 1024px;
 }
 .select h2 {
 	padding-top: 22px;
@@ -71,7 +69,7 @@ article {
 }
 .header_button {
 	background: radial-gradient(50% 50% at 50% 50%, #718743 0%, rgba(113, 135, 67, 0) 100%);
-	width: 324px;
+	width: 320px;
 	height: 135px;
 	border: 0;
 	font-family: Reggae One;
@@ -96,7 +94,6 @@ article button {
 	letter-spacing: 0em;
 }
 .select_cont {
-	height: 1024px;
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
