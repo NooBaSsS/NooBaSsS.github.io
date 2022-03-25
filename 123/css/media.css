@@ -22,6 +22,7 @@
 	}
 	.article_cont {
 		flex-direction: column;
+		width: 320px;
 	}
 	.article_cont h3{
 		font-size: 18px;
@@ -45,10 +46,106 @@
 		width: 150px;
 		height: 40px;
 		font-size: 9px;
+		margin-bottom: 5px;
 	}
 	.map {
 		width: 150px;
 		height: 95px;
+		margin-bottom: 20px;
+	}
+	.form_cont {
+		width: 320px;
+		height: 226px;
+		display: flex;
+		flex-direction: column;
+		padding: 0;
+		text-align: center;
+	}
+	.form_cont h3 {
+		font-size: 18px;
+		line-height: normal;
+		width: 264px;
+		margin: 10px auto 22px;
+
+	}
+	#name {
+		width: 247px;
+		height: 25px;
+		font-size: 15px;
+		margin-right: 0;
+		margin-bottom: 10px;
+		padding: 0;
+		text-align: center;
+	}
+	#mail {
+		width: 247px;
+		height: 25px;
+		font-size: 15px;
+		margin-bottom: 15px;
+		padding: 0;
+		text-align: center;
+	}
+	#submit {
+		width: 264px;
+		height: 30px;
+		font-size: 14px;
+	}
+	.input {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+
+	}
+	.footer_cont {
+		width: 320px;
+		height: 155px;
+		padding: 10px;
+	}
+	.apps {
+		width: 20px;
+		height: 20px;
+		margin-right: 5px;
+	}
+	.footer_cont  h3, span {
+		font-size: 14px;
+		margin-top: 0;
+		font-family: Reggae One;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 20px;
+		letter-spacing: 0em;
+	}
+	.mail {
+		margin-top: 47px;
+
+	}
+	.text {
+		height: 130px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+	}
+	.webs {
+		display: flex;
+		flex-direction: column;
+	}
+	.apps2 {
+		margin: 0;
+
+	}
+	.apps2 {
+		width: 20px;
+		height: 20px;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-right: 0;
+		margin-bottom: 15px;
+		
 	}
 }
 @media (min-width: 481px) {
