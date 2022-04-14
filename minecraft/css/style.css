@@ -66,7 +66,7 @@
   font-weight: 400;
   margin-top: 30px;
   margin-bottom: 25px;
-  
+
 }
 .rating_cont {
   background-image: url(../img/rating_bg.jpg);
@@ -76,4 +76,32 @@
   font-family: Kelly-Slab;
   font-size: 60px;
   font-weight: 400;
+}
+.gallery {
+  margin-bottom: 130px;
+
+}
+.rating_header {
+  margin-top: 30px;
+  margin-bottom: 45px;
+
+}
+.rating {
+  margin-bottom: 52px;
+  
+}
+.contacts_cont {
+  background-image: url(../img/contacts_bg.jpg);
+  padding: 60px 67px 70px 67px;
+}
+.org {
+  font-family: Kelly-Slab;
+  font-size: 26px;
+  font-weight: 400;
+  text-align: left;
+}
+.webs {
+  height: 60px;
+  width: 60px;
+  border-radius: 0px;
 }
