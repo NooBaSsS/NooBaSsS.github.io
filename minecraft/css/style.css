@@ -64,6 +64,9 @@
   font-family: Kelly-Slab;
   font-size: 60px;
   font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  
 }
 .rating_cont {
   background-image: url(../img/rating_bg.jpg);
