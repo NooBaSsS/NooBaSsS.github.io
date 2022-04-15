@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/media.css">
+	<!-- jQuery 1.8 or later, 33 KB -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 	<title>Сервер Minecraft ФЦДО</title>
@@ -26,7 +28,7 @@
 			</div>
 			<div class="row">
 				<div class="col-12 ">
-					<p class="text_shadow">
+					<p class="text_shadow server_spec">
 						Особенности сервера:
 					</p>
 					
@@ -62,6 +64,8 @@
 				<div class="col-12">
 					<h2 class="section_heading">Модификации</h2>
 				</div>
+			</div>
+			<div class="row">
 				<div class="col-4">
 					<article class="mod_container">
 						<h3 class="mod_heading">Create</h3>
@@ -97,11 +101,14 @@
 				</div>
 			</div>
 			<div class="row justify-content-center">
-				<div class="col-10">
-					<div class="fotorama gallery" data-width="851"
-					data-height="801">
+				<div class="col-10 text-center">
+					<div class="fotorama gallery" data-nav="thumbs" data-loop="true" data-autoplay="true" data-keyboard="true" data-arrows="true" data-click="true" data-swipe="true">
 						<img src="img/gallery1.jpg">
 						<img src="img/gallery2.jpg">
+						<img src="img/gallery3.jpg">
+						<img src="img/gallery4.jpg">
+						<img src="img/gallery5.jpg">
+						<img src="img/gallery6.jpg">
 					</div>
 				</div>
 			</div>
@@ -124,17 +131,21 @@
 	<section id="subscribe"></section>
 	<footer id="contacts">
 		<div class="container contacts_cont">
-			<div class="row">
+			<div class="row justify-content-between">
 				<div class="col-5">
 					<p class="org">организатор сервера: <br>Федеральное государственное бюджетное образовательное учреждение дополнительного образования «Федеральный центр дополнительного образования и организации отдыха и оздоровления детей» (ФГБОУ ДО ФЦДО)</p>
 				</div>
 				<div class="col-1">
-					<a href="" class="webs"><img src="img/vk.png" alt=""></a><br>
-					<a href="" class="webs"><img src="img/tg.png" alt=""></a><br>
+					<a href="" class="webs"><img src="img/vk.png" alt=""></a>
+					<a href="" class="webs"><img src="img/tg.png" alt=""></a>
 					<a href="" class="webs"><img src="img/discord.png" alt=""></a>
 				</div>
 			</div>
-			<div class="row"></div>
+			<div class="row">
+				<div class="col-4">
+					<button class="beta">Записаться на бета-тест</button>
+				</div>
+			</div>
 		</div>
 	</footer>
 </body>
