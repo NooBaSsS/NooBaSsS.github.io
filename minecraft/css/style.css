@@ -19,7 +19,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.server_spec {
+.server_features {
   font-size: 20px;
 }
 .text_shadow {
@@ -28,7 +28,14 @@
   font-weight: 400;
   text-shadow: #000000 4px 3px 5px;
 }
-
+.server_features {
+  font-family: Kelly-Slab;
+  text-shadow: #000000 4px 3px 5px;
+}
+.about_server {
+  font-family: Kelly-Slab;
+  text-shadow: #000000 4px 3px 5px;
+}
 .header_bottom {
   font-family: Jura;
   font-size: 14px;

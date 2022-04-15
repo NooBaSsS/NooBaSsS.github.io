@@ -1,5 +1,24 @@
-@media (max-width: 480px){}
-@media (min-width: 481px){}
+@media (max-width: 480px) {}
+@media (min-width: 481px) {
+	#about {
+		background-size: cover;
+	}
+	.about_heading {
+		font-size: 32px;
+	}
+	.text_shadow {
+		font-size: 17px;
+	}
+	.server_features {
+		font-size: 18px;
+	}
+	.about_server {
+		font-size: 15px;
+	}
+	.header_bottom {
+		font-size: 12px;
+	}
+}
 @media (min-width: 769px) {
 	.about_heading {
 		font-size: 48px;
@@ -8,7 +27,7 @@
 	.text_shadow {
 		font-size: 16px;
 	}
-	.server_spec {
+	.server_features {
 		font-size: 18px;
 	}
 	.about_server {
@@ -57,7 +76,7 @@
 	.text_shadow {
 		font-size: 18px;
 	}
-	.server_spec {
+	.server_features {
 		font-size: 20px;
 	}
 	.about_server {
@@ -108,7 +127,7 @@
 	.text_shadow {
 		font-size: 28px;
 	}
-	.server_spec {
+	.server_features {
 		font-size: 30px;
 	}
 	.about_server {
