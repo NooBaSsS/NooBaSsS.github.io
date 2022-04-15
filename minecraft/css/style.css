@@ -57,6 +57,10 @@
 .mod_info {
   margin-bottom: 30px;
 }
+.download {
+  background-color: #529730;
+  font-family: Kelly-Slab;
+}
 .gallery_cont {
   background-image: url(../img/gallery_bg.jpg);
 }

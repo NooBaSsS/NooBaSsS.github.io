@@ -14,6 +14,24 @@
 	.section_heading {
 		font-size: 44px;
 	}
+	.mod_heading {
+		font-size: 26px;
+	}
+	.mod_image {
+		height: 132px;
+		width: 217px;
+	}
+	.mod_info {
+		font-size: 10px;
+	}
+	.download {
+		height: 50px;
+		width: 217px;
+		font-size: 14px;
+	}
+	.gallery_header {
+		font-size: 44px;
+	}
 }
 @media (min-width: 1025px){
 	.about_heading {
@@ -24,6 +42,27 @@
 	}
 	.header_bottom {
 		font-size: 14px;
+	}
+	.section_heading {
+		font-size: 60px;
+	}
+	.mod_heading {
+		font-size: 38px;
+	}
+	.mod_image {
+		height: 171px;
+		width: 281px;
+	}
+	.mod_info {
+		font-size: 15px;
+	}
+	.download {
+		height: 65px;
+		width: 281px;
+		font-size: 18px;
+	}
+	.gallery_header {
+		font-size: 60px;
 	}
 }
 @media (min-width: 1201px){}
