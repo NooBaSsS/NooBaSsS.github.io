@@ -1,12 +1,16 @@
 @media (max-width: 480px){}
 @media (min-width: 481px){}
-@media (min-width: 769px){
+
+@media (min-width: 769px) {
 	.about_heading {
 		font-size: 48px;
 		font-weight: 400;
 	}
 	.text_shadow {
 		font-size: 16px;
+	}
+	.server_spec {
+		font-size: 18px;
 	}
 	.header_bottom {
 		font-size: 13px;
@@ -64,5 +68,9 @@
 	.gallery_header {
 		font-size: 60px;
 	}
+	.server_spec {
+		font-size: 20px;
+	}
+
 }
 @media (min-width: 1201px){}
