@@ -1,6 +1,5 @@
 @media (max-width: 480px){}
 @media (min-width: 481px){}
-
 @media (min-width: 769px) {
 	.about_heading {
 		font-size: 48px;
@@ -11,6 +10,9 @@
 	}
 	.server_spec {
 		font-size: 18px;
+	}
+	.about_server {
+		font-size: 15px;
 	}
 	.header_bottom {
 		font-size: 13px;
@@ -36,6 +38,17 @@
 	.gallery_header {
 		font-size: 44px;
 	}
+	.organiser_header {
+		font-size: 28px;
+	}
+	.organiser {
+		font-size: 26px;
+	}
+	.webs {
+		width: 45px;
+		height: 45px;
+		margin-bottom: 30px;
+	}
 }
 @media (min-width: 1025px){
 	.about_heading {
@@ -43,6 +56,12 @@
 	}
 	.text_shadow {
 		font-size: 18px;
+	}
+	.server_spec {
+		font-size: 20px;
+	}
+	.about_server {
+		font-size: 16px;
 	}
 	.header_bottom {
 		font-size: 14px;
@@ -68,9 +87,67 @@
 	.gallery_header {
 		font-size: 60px;
 	}
-	.server_spec {
-		font-size: 20px;
+	.rating_header {
+		font-size: 44px
 	}
-
+	.organiser_header {
+		font-size: 28px;
+	}
+	.organiser {
+		font-size: 26px;
+	}
+	.webs {
+		width: 60px;
+		height: 60px;
+	}
 }
-@media (min-width: 1201px){}
+@media (min-width: 1201px) {
+	.about_heading {
+		font-size: 80px;
+	}
+	.text_shadow {
+		font-size: 28px;
+	}
+	.server_spec {
+		font-size: 30px;
+	}
+	.about_server {
+		font-size: 22px;
+	}
+	.header_bottom {
+		font-size: 16px;
+	}
+	.section_heading {
+		font-size: 70px;
+	}
+	.mod_heading {
+		font-size: 40px;
+	}
+	.mod_image {
+		width: 285px;
+		height: 175px;
+	}
+	.mod_info {
+		font-size: 18px;
+	}
+	.download {
+		height: 65px;
+		width: 285px;
+		font-size: 17px;
+	}
+	.gallery_header {
+		font-size: 70px;
+	}
+	.rating_header {
+		font-size: 70px;
+	}
+	.organiser_header {
+		font-size: 34px;
+	}
+	.organiser {
+		font-size: 32px;
+	}
+	.webs {
+		width: 75px;
+		height: 75px;
+	}

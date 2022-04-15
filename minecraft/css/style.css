@@ -3,9 +3,10 @@
   color: #ffffff;
   text-align: center;
 }
-
-.about_cont {
+#about {
   background-image: url("../img/header_bg.jpg");
+}
+.about_cont {
   padding: 30px 15px;
 }
 
@@ -13,6 +14,7 @@
   font-family: Kelly-Slab;
   font-size: 64px;
   font-weight: 400;
+  margin-bottom: 20px;
   background: linear-gradient(180deg, #FFFFFF 0%, #757575 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -32,9 +34,10 @@
   font-size: 14px;
   font-weight: 400;
 }
-
-.mods_cont {
+#mods {
   background-image: url("../img/mods_bg.jpg");
+}
+.mods_cont {
   padding: 20px 67px 82px;
 }
 
@@ -69,8 +72,10 @@
   border: 0;
   border-radius: 5px;
 }
-.gallery_cont {
+#gallery {
   background-image: url(../img/gallery_bg.jpg);
+}
+.gallery_cont {
   background-size: cover;
 }
 .gallery_header {
@@ -79,10 +84,14 @@
   font-weight: 400;
   margin-top: 30px;
   margin-bottom: 25px;
-
+}
+.gallery {
+  margin-bottom: 130px;
+}
+#rating {
+  background-image: url(../img/rating_bg.jpg);
 }
 .rating_cont {
-  background-image: url(../img/rating_bg.jpg);
   text-align: center;
 }
 .rating_header {
@@ -90,10 +99,7 @@
   font-size: 60px;
   font-weight: 400;
 }
-.gallery {
-  margin-bottom: 130px;
 
-}
 .rating_header {
   margin-top: 30px;
   margin-bottom: 45px;
@@ -101,14 +107,15 @@
 }
 .rating {
   margin-bottom: 52px;
-  
 }
-.contacts_cont {
+#contacts {
   background-image: url(../img/contacts_bg.jpg);
   background-size: cover;
+}
+.contacts_cont {
   padding: 60px 67px 70px 67px;
 }
-.org {
+.organiser {
   font-family: Kelly-Slab;
   font-size: 26px;
   font-weight: 400;
@@ -122,7 +129,7 @@
   border-radius: 0px;
   margin-bottom: 20px;
 }
-.beta {
+.sign_up {
   background-color: #529730;
   height: 113px;
   width: 368px;
@@ -131,7 +138,6 @@
   font-family: Kelly-Slab;
   font-size: 28px;
 }
-
 .fotorama__wrap {
     margin: 0 auto;
 }
