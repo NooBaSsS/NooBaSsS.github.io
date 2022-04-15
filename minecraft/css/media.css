@@ -1,0 +1,29 @@
+@media (max-width: 480px){}
+@media (min-width: 481px){}
+@media (min-width: 769px){
+	.about_heading {
+		font-size: 48px;
+		font-weight: 400;
+	}
+	.text_shadow {
+		font-size: 16px;
+	}
+	.header_bottom {
+		font-size: 13px;
+	}
+	.section_heading {
+		font-size: 44px;
+	}
+}
+@media (min-width: 1025px){
+	.about_heading {
+		font-size: 64px;
+	}
+	.text_shadow {
+		font-size: 18px;
+	}
+	.header_bottom {
+		font-size: 14px;
+	}
+}
+@media (min-width: 1201px){}
