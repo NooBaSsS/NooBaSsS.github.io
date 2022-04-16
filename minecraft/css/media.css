@@ -1,10 +1,12 @@
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+	
+}
 @media (min-width: 481px) {
 	#about {
 		background-size: cover;
 	}
 	.about_heading {
-		font-size: 32px;
+		font-size: 40px;
 	}
 	.text_shadow {
 		font-size: 17px;
@@ -17,6 +19,45 @@
 	}
 	.header_bottom {
 		font-size: 12px;
+	}
+	.section_heading {
+		font-size: 38px;
+	}
+	.mod_heading {
+		font-size: 28px;
+	}
+	.mod_image {
+		width: 231px;
+		height: 140px;
+	}
+	.mod_info {
+		font-size: 13px;
+	}
+	.download {
+		font-size: 16px;
+		margin-bottom: 30px;
+	}
+	.gallery_header {
+		font-size: 38px;
+	}
+	.rating_header {
+		font-size: 38px;
+	}
+	.organiser {
+		font-size: 14px;
+		margin-bottom: 25px;
+	}
+	.organiser_header {
+		font-size: 16px;
+	}
+	.webs {
+		height: 30px;
+		width: 30px;
+	}
+	.sign_up {
+		width: 175px;
+		height: 55px;
+		font-size: 15px;
 	}
 }
 @media (min-width: 769px) {
@@ -170,3 +211,4 @@
 		width: 75px;
 		height: 75px;
 	}
+}
