@@ -131,15 +131,11 @@
 }
 .webs {
   display: block;
-  height: 60px;
-  width: 60px;
   border-radius: 0px;
   margin-bottom: 20px;
 }
 .sign_up {
   background-color: #529730;
-  height: 113px;
-  width: 368px;
   border-radius: 7px;
   border: 0;
   font-family: Kelly-Slab;

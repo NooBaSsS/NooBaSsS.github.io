@@ -1,5 +1,63 @@
 @media (max-width: 480px) {
-	
+	#about {
+		background-size: cover;
+	}
+	.about_heading {
+		font-size: 28px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	.text_shadow {
+		font-size: 18px;
+	}
+	.server_features {
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.about_server {
+		font-size: 15px;
+	}
+	.header_bottom {
+		font-size: 13px;
+	}
+	.section_heading {
+		font-size: 26px;
+	}
+	.mod_heading {
+		font-size: 26px;
+	}
+	.mod_info {
+		font-size: 12px;
+	}
+	.download {
+		height: 57px;
+		font-size: 12px;
+		margin-bottom: 20px;
+	}
+	.gallery_header {
+		font-size: 28px;
+	}
+	.fotorama {
+		margin-bottom: 25px;
+	}
+	.rating_header {
+		font-size: 28px;
+	}
+	.organiser {
+		font-size: 12px;
+	}
+	.organiser_header {
+		font-size: 13px;
+	}
+	.webs {
+		width: 30px;
+		height: 30px;
+	}
+	.sign_up {
+		height: 50px;
+		width: 150px;
+		font-size: 12px;
+	}
 }
 @media (min-width: 481px) {
 	#about {
@@ -25,10 +83,6 @@
 	}
 	.mod_heading {
 		font-size: 28px;
-	}
-	.mod_image {
-		width: 231px;
-		height: 140px;
 	}
 	.mod_info {
 		font-size: 13px;
@@ -83,17 +137,12 @@
 	.mod_heading {
 		font-size: 26px;
 	}
-	.mod_image {
-		height: 132px;
-		width: 217px;
-	}
 	.mod_info {
 		font-size: 10px;
 	}
 	.download {
 		height: 50px;
-		width: 217px;
-		font-size: 14px;
+		font-size: 13px;
 	}
 	.gallery_header {
 		font-size: 44px;
@@ -132,16 +181,11 @@
 	.mod_heading {
 		font-size: 38px;
 	}
-	.mod_image {
-		height: 171px;
-		width: 281px;
-	}
 	.mod_info {
 		font-size: 15px;
 	}
 	.download {
 		height: 65px;
-		width: 281px;
 		font-size: 18px;
 	}
 	.gallery_header {
@@ -183,17 +227,12 @@
 	.mod_heading {
 		font-size: 40px;
 	}
-	.mod_image {
-		width: 285px;
-		height: 175px;
-	}
 	.mod_info {
 		font-size: 18px;
 	}
 	.download {
 		height: 65px;
-		width: 285px;
-		font-size: 17px;
+		font-size: 18px;
 	}
 	.gallery_header {
 		font-size: 70px;
